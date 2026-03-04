@@ -1,0 +1,20 @@
+{
+  "short_name": "Dante",
+  "name": "Divine Comedy: Bilingual Edition",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./divine_comedy.html",
+  "background_color": "#f0f2f5",
+  "display": "standalone",
+  "theme_color": "#007bff"
+}
