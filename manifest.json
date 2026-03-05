@@ -1,20 +1,37 @@
 {
   "short_name": "Dante",
   "name": "Divine Comedy: Bilingual Edition",
+  "description": "A bilingual reading experience of La Divina Commedia.",
   "icons": [
     {
       "src": "icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "start_url": "./divine_comedy.html",
   "background_color": "#f0f2f5",
   "display": "standalone",
-  "theme_color": "#007bff"
+  "orientation": "portrait",
+  "theme_color": "#007bff",
+  "scope": "./"
 }
